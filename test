@@ -1,0 +1,139 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.007  000.007: --- NVIM STARTING ---
+000.184  000.177: locale set
+000.384  000.201: inits 1
+000.394  000.010: window checked
+002.498  002.103: parsing arguments
+002.653  000.156: expanding arguments
+002.669  000.016: inits 2
+002.981  000.312: init highlight
+002.983  000.002: waiting for UI
+003.673  000.690: done waiting for UI
+003.680  000.007: init screen for UI
+003.705  000.024: init default mappings
+003.796  000.091: init default autocommands
+004.091  000.264  000.264: sourcing /home/oodake/.config/nvim/init.lua
+004.097  000.038: sourcing vimrc file(s)
+004.794  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/filetype.vim
+009.696  000.016  000.016: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/cooklang.vim
+009.717  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/fusion.vim
+009.734  000.009  000.009: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdresource.vim
+009.748  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdscript.vim
+009.762  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/glimmer.vim
+009.776  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/glsl.vim
+009.789  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gowork.vim
+009.814  000.015  000.015: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/graphql.vim
+009.833  000.010  000.010: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hack.vim
+009.850  000.011  000.011: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hcl.vim
+009.883  000.025  000.025: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/heex.vim
+009.931  000.031  000.031: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hjson.vim
+009.969  000.012  000.012: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/json5.vim
+010.016  000.019  000.019: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/ledger.vim
+010.078  000.017  000.017: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/nix.vim
+010.098  000.008  000.008: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/prisma.vim
+010.115  000.010  000.010: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/pug.vim
+010.165  000.017  000.017: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/ql.vim
+010.194  000.018  000.018: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/query.vim
+010.210  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/surface.vim
+010.223  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/teal.vim
+010.238  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/tlaplus.vim
+010.252  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/yang.vim
+010.319  000.011  000.011: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/ftdetect/polyglot.vim
+010.492  005.676  005.386: sourcing /usr/share/nvim/runtime/filetype.vim
+010.624  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/cooklang.vim
+010.638  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/fusion.vim
+010.757  000.052  000.052: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdresource.vim
+010.778  000.008  000.008: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdscript.vim
+010.791  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/glimmer.vim
+010.803  000.005  000.005: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/glsl.vim
+010.815  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gowork.vim
+010.831  000.009  000.009: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/graphql.vim
+010.846  000.009  000.009: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hack.vim
+010.863  000.010  000.010: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hcl.vim
+010.899  000.017  000.017: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/heex.vim
+010.918  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hjson.vim
+010.930  000.005  000.005: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/json5.vim
+011.116  000.026  000.026: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/ledger.vim
+011.137  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/nix.vim
+011.150  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/prisma.vim
+011.163  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/pug.vim
+011.176  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/ql.vim
+011.195  000.013  000.013: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/query.vim
+011.208  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/surface.vim
+011.221  000.006  000.006: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/teal.vim
+011.234  000.005  000.005: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/tlaplus.vim
+011.245  000.005  000.005: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/yang.vim
+011.341  000.011  000.011: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/ftdetect/polyglot.vim
+023.452  018.913  012.986: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/autoload/polyglot/init.vim
+023.468  018.977  000.064: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/filetype.vim
+023.507  000.009  000.009: sourcing /usr/share/nvim/runtime/filetype.vim
+023.856  000.023  000.023: sourcing /usr/share/nvim/runtime/ftplugin.vim
+023.927  000.018  000.018: sourcing /usr/share/nvim/runtime/indent.vim
+024.108  000.054  000.054: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+024.164  000.207  000.153: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+024.796  000.366  000.366: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/plugin/polyglot.vim
+025.086  000.183  000.183: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+025.105  000.007  000.007: sourcing /usr/share/nvim/runtime/plugin/health.vim
+025.185  000.072  000.072: sourcing /usr/share/nvim/runtime/plugin/man.vim
+025.448  000.129  000.129: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+025.494  000.299  000.170: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+025.597  000.095  000.095: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+025.928  000.323  000.323: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+026.134  000.006  000.006: sourcing /home/oodake/.local/share/nvim/rplugin.vim
+026.139  000.123  000.117: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+026.247  000.099  000.099: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+026.280  000.018  000.018: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+026.452  000.161  000.161: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+026.518  000.052  000.052: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+026.543  000.012  000.012: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+026.698  000.141  000.141: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+030.652  003.906  003.906: sourcing /home/oodake/.config/nvim/plugin/packer_compiled.lua
+030.772  001.583: loading rtp plugins
+031.179  000.277  000.277: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/auto-pairs/plugin/auto-pairs.vim
+031.311  000.065  000.065: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/clever-f.vim/plugin/clever-f.vim
+035.139  003.765  003.765: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/nvim-treesitter/plugin/nvim-treesitter.vim
+035.906  000.566  000.566: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/quick-scope/plugin/quick_scope.vim
+036.276  000.104  000.104: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-commentary/plugin/commentary.vim
+040.499  000.724  000.724: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-easymotion/autoload/EasyMotion/highlight.vim
+040.675  004.340  003.616: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-easymotion/plugin/EasyMotion.vim
+040.781  000.035  000.035: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-edgemotion/plugin/edgemotion.vim
+041.037  000.150  000.150: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-expand-region/autoload/expand_region.vim
+041.138  000.305  000.156: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-expand-region/plugin/expand_region.vim
+041.260  000.049  000.049: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-niceblock/plugin/niceblock.vim
+041.396  000.087  000.087: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/plugin/polyglot.vim
+041.619  000.150  000.150: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-rengbang/plugin/operator/rengbang.vim
+041.685  000.052  000.052: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-rengbang/plugin/rengbang.vim
+041.866  000.103  000.103: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim
+042.222  000.304  000.304: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-surround/plugin/surround.vim
+042.475  000.184  000.184: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/wb-only-current-line.vim/plugin/wb_only_current_line.vim
+042.550  001.392: loading packages
+042.571  000.021: loading after plugins
+042.579  000.008: inits 3
+043.894  001.314: reading ShaDa
+044.447  000.554: opening buffers
+045.643  000.680  000.680: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/autoload/polyglot/sleuth.vim
+046.805  000.154  000.154: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/quick-scope/autoload/quick_scope.vim
+046.848  001.566: BufEnter autocommands
+046.851  000.003: editing files in windows
+048.153  000.080  000.080: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/autoload/matchup/unmatchit.vim
+048.251  000.010  000.010: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+049.007  000.223  000.223: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/autoload/matchup.vim
+049.191  000.071  000.071: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/autoload/matchup/perf.vim
+049.755  000.309  000.309: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/autoload/matchup/loader.vim
+050.920  000.498  000.498: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/autoload/matchup/matchparen.vim
+052.559  005.064  003.873: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/plugin/matchup.vim
+052.750  000.007  000.007: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/after/plugin/matchit.vim
+053.827  000.159  000.159: sourcing /home/oodake/.local/share/nvim/site/pack/packer/start/vim-polyglot/autoload/polyglot/shebang.vim
+054.519  000.274  000.274: sourcing /usr/share/nvim/runtime/scripts.vim
+054.827  002.472: VimEnter autocommands
+054.831  000.004: UIEnter autocommands
+054.832  000.001: before starting main loop
+5978.370  000.172  000.172: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/autoload/matchup/pos.vim
+5978.987  000.384  000.384: sourcing /home/oodake/.local/share/nvim/site/pack/packer/opt/vim-matchup/autoload/matchup/delim.vim
+5979.340  5923.952: first screen update
+5979.343  000.003: --- NVIM STARTED ---
