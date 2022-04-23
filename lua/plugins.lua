@@ -4,6 +4,7 @@ end
 
 local utils = require('utils')
 
+
 require('packer').startup(function()
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
@@ -31,11 +32,18 @@ require('packer').startup(function()
     --         require('hop').setup {keys = 'etovxqpdygfblzhckisuran', jump_on_sole_occurrence = false} 
     --     end
     -- }
-    use {"asvetliakov/vim-easymotion"}
+    use {"asvetliakov/vim-easymotion", as="vsc-easymotion"}
     -- vim-expand-region
     -- +で拡大, _で縮小
     use {"terryma/vim-expand-region"}
 
+    -- nvim tree
+    use {
+        'kyazdani42/nvim-tree.lua',
+        requires = {
+            'kyazdani42/nvim-web-devicons', -- optional, for file icon
+        }
+    }
     -- substitute.nvim
     -- yiw->gs"などで　ヤンク->置換
     use({

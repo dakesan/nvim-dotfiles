@@ -1,9 +1,14 @@
-vim.cmd([[
-  augroup packer_user_config
-    autocmd!
-    autocmd bufwritepost plugins.lua source <afile> | packercompile
-  augroup end
-]])
+-- クリップボード共有 
+local api = vim.api
+-- keys
+vim.g.mapleader = " "
+
+-- vim.cmd([[
+--   augroup packer_user_config
+--     autocmd!
+--     autocmd bufwritepost plugins.lua source <afile> | Packercompile
+--   augroup end
+-- ]])
 
 -- packerのプラグイン読み込み
 require('plugins')
@@ -14,8 +19,10 @@ require('config.colorscheme')
 -- vim settings
 require('config.vimsettings')
 
--- クリップボード共有 
-local api = vim.api
+require('config.nvim_tree')
+
+require('config.keysettings')
+
 -- local vim = vim
 -- api.nvim_set_option('clipboard', 'unnamedplus')
 -- vim.o.clipboard = "unnamedplus"
@@ -23,9 +30,6 @@ local api = vim.api
 -- ctrl+s save on insertmode
 api.nvim_set_keymap("i", "<c-s>", "<esc>:w<cr>i", { noremap = true })
 api.nvim_set_keymap("n", "<c-s>", ":w<cr>", { noremap = true })
-
--- keys
-vim.g.mapleader = " "
 
 -- quick-scopeをvscodeに反映させる
 vim.cmd[[highlight quickscopeprimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline]]
