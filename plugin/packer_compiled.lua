@@ -80,10 +80,16 @@ _G.packer_plugins = {
     url = "https://github.com/rhysd/clever-f.vim"
   },
   ["doom-one.nvim"] = {
-    config = { "\27LJ\2\2…\3\0\0\3\0\b\0\v6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0005\2\4\0=\2\5\0015\2\6\0=\2\a\1B\0\2\1K\0\1\0\25plugins_integrations\1\0\14\vbarbar\2\14nvim_tree\2\rwhichkey\2\14dashboard\2\15bufferline\1\rgitsigns\2\21indent_blankline\2\19vim_illuminate\2\flspsaga\1\rstartify\2\nneorg\2\14telescope\1\vneogit\2\14gitgutter\1\rpumblend\1\0\2\24transparency_amount\3\20\venable\2\1\0\5\22enable_treesitter\2\20terminal_colors\1\20cursor_coloring\1\20italic_comments\1\27transparent_background\1\nsetup\rdoom-one\frequire\0" },
+    config = { "\27LJ\2\n…\3\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\25plugins_integrations\1\0\14\rstartify\2\14dashboard\2\14nvim_tree\2\vneogit\2\14telescope\1\rgitsigns\2\14gitgutter\1\15bufferline\1\vbarbar\2\nneorg\2\flspsaga\1\19vim_illuminate\2\21indent_blankline\2\rwhichkey\2\rpumblend\1\0\2\venable\2\24transparency_amount\3\20\1\0\5\20terminal_colors\1\20cursor_coloring\1\27transparent_background\1\22enable_treesitter\2\20italic_comments\1\nsetup\rdoom-one\frequire\0" },
     loaded = true,
     path = "/home/oodake/.local/share/nvim/site/pack/packer/start/doom-one.nvim",
     url = "https://github.com/NTBBloodbath/doom-one.nvim"
+  },
+  ["hop.nvim"] = {
+    config = { "\27LJ\2\nU\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\tkeys\28etovxqpdygfblzhckisuran\nsetup\bhop\frequire\0" },
+    loaded = true,
+    path = "/home/oodake/.local/share/nvim/site/pack/packer/start/hop.nvim",
+    url = "https://github.com/phaazon/hop.nvim"
   },
   ["markdown-preview.nvim"] = {
     commands = { "MarkdownPreview" },
@@ -92,6 +98,11 @@ _G.packer_plugins = {
     only_cond = false,
     path = "/home/oodake/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
+  ["move.nvim"] = {
+    loaded = true,
+    path = "/home/oodake/.local/share/nvim/site/pack/packer/start/move.nvim",
+    url = "https://github.com/fedepujol/move.nvim"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -119,7 +130,7 @@ _G.packer_plugins = {
     url = "https://github.com/unblevable/quick-scope"
   },
   ["substitute.nvim"] = {
-    config = { "\27LJ\2\2Ê\1\0\0\3\0\b\0\v6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0005\2\4\0=\2\5\0015\2\6\0=\2\a\1B\0\2\1K\0\1\0\rexchange\1\0\1\vmotion\1\nrange\1\0\6\fmotion2\1\vprefix\6s\24prompt_current_text\1\fmotion1\1\fconfirm\1\18complete_word\1\1\0\1\25yank_substitued_text\1\nsetup\15substitute\frequire\0" },
+    config = { "\27LJ\2\nÊ\1\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\rexchange\1\0\1\vmotion\1\nrange\1\0\6\24prompt_current_text\1\fmotion1\1\fmotion2\1\vprefix\6s\fconfirm\1\18complete_word\1\1\0\1\25yank_substitued_text\1\nsetup\15substitute\frequire\0" },
     loaded = true,
     path = "/home/oodake/.local/share/nvim/site/pack/packer/start/substitute.nvim",
     url = "https://github.com/gbprod/substitute.nvim"
@@ -185,11 +196,6 @@ _G.packer_plugins = {
     path = "/home/oodake/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
-  ["vsc-easymotion"] = {
-    loaded = true,
-    path = "/home/oodake/.local/share/nvim/site/pack/packer/start/vsc-easymotion",
-    url = "https://github.com/asvetliakov/vim-easymotion"
-  },
   ["wb-only-current-line.vim"] = {
     loaded = true,
     path = "/home/oodake/.local/share/nvim/site/pack/packer/start/wb-only-current-line.vim",
@@ -198,13 +204,17 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: hop.nvim
+time([[Config for hop.nvim]], true)
+try_loadstring("\27LJ\2\nU\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\tkeys\28etovxqpdygfblzhckisuran\nsetup\bhop\frequire\0", "config", "hop.nvim")
+time([[Config for hop.nvim]], false)
 -- Config for: substitute.nvim
 time([[Config for substitute.nvim]], true)
-try_loadstring("\27LJ\2\2Ê\1\0\0\3\0\b\0\v6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0005\2\4\0=\2\5\0015\2\6\0=\2\a\1B\0\2\1K\0\1\0\rexchange\1\0\1\vmotion\1\nrange\1\0\6\fmotion2\1\vprefix\6s\24prompt_current_text\1\fmotion1\1\fconfirm\1\18complete_word\1\1\0\1\25yank_substitued_text\1\nsetup\15substitute\frequire\0", "config", "substitute.nvim")
+try_loadstring("\27LJ\2\nÊ\1\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\rexchange\1\0\1\vmotion\1\nrange\1\0\6\24prompt_current_text\1\fmotion1\1\fmotion2\1\vprefix\6s\fconfirm\1\18complete_word\1\1\0\1\25yank_substitued_text\1\nsetup\15substitute\frequire\0", "config", "substitute.nvim")
 time([[Config for substitute.nvim]], false)
 -- Config for: doom-one.nvim
 time([[Config for doom-one.nvim]], true)
-try_loadstring("\27LJ\2\2…\3\0\0\3\0\b\0\v6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0005\2\4\0=\2\5\0015\2\6\0=\2\a\1B\0\2\1K\0\1\0\25plugins_integrations\1\0\14\vbarbar\2\14nvim_tree\2\rwhichkey\2\14dashboard\2\15bufferline\1\rgitsigns\2\21indent_blankline\2\19vim_illuminate\2\flspsaga\1\rstartify\2\nneorg\2\14telescope\1\vneogit\2\14gitgutter\1\rpumblend\1\0\2\24transparency_amount\3\20\venable\2\1\0\5\22enable_treesitter\2\20terminal_colors\1\20cursor_coloring\1\20italic_comments\1\27transparent_background\1\nsetup\rdoom-one\frequire\0", "config", "doom-one.nvim")
+try_loadstring("\27LJ\2\n…\3\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\25plugins_integrations\1\0\14\rstartify\2\14dashboard\2\14nvim_tree\2\vneogit\2\14telescope\1\rgitsigns\2\14gitgutter\1\15bufferline\1\vbarbar\2\nneorg\2\flspsaga\1\19vim_illuminate\2\21indent_blankline\2\rwhichkey\2\rpumblend\1\0\2\venable\2\24transparency_amount\3\20\1\0\5\20terminal_colors\1\20cursor_coloring\1\27transparent_background\1\22enable_treesitter\2\20italic_comments\1\nsetup\rdoom-one\frequire\0", "config", "doom-one.nvim")
 time([[Config for doom-one.nvim]], false)
 
 -- Command lazy-loads
@@ -212,8 +222,8 @@ time([[Defining lazy-load commands]], true)
 pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file MarkdownPreview lua require("packer.load")({'markdown-preview.nvim'}, { cmd = "MarkdownPreview", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
 pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file Focus lua require("packer.load")({'vim-dispatch'}, { cmd = "Focus", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
 pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file Start lua require("packer.load")({'vim-dispatch'}, { cmd = "Start", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
-pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file Dispatch lua require("packer.load")({'vim-dispatch'}, { cmd = "Dispatch", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
 pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file Make lua require("packer.load")({'vim-dispatch'}, { cmd = "Make", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
+pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file Dispatch lua require("packer.load")({'vim-dispatch'}, { cmd = "Dispatch", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
 time([[Defining lazy-load commands]], false)
 
 vim.cmd [[augroup packer_load_aucmds]]

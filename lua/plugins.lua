@@ -32,7 +32,15 @@ require('packer').startup(function()
     --         require('hop').setup {keys = 'etovxqpdygfblzhckisuran', jump_on_sole_occurrence = false} 
     --     end
     -- }
-    use {"asvetliakov/vim-easymotion", as="vsc-easymotion"}
+    -- use {"asvetliakov/vim-easymotion", as="vsc-easymotion"}
+    use {
+        'phaazon/hop.nvim',
+        branch = 'v1', -- optional but strongly recommended
+        config = function()
+          -- you can configure Hop the way you like here; see :h hop-config
+          require 'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+        end
+      }
     -- vim-expand-region
     -- +で拡大, _で縮小
     use {"terryma/vim-expand-region"}
@@ -109,6 +117,9 @@ require('packer').startup(function()
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
+    
+    -- move
+    use 'fedepujol/move.nvim'
 
     -- Use specific branch, dependency and run lua file after load
     -- use {
